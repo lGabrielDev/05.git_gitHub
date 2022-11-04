@@ -1,0 +1,79 @@
+<!--
+
+git init -> Transforma um diretório em um repositório local;
+
+git add -> Adicione arquivos/diretorios para o repositório. Ele "trackeia" os arquivos; Assim o git consegue trackear(rastrear/identificar) esses arquivos;
+
+
+Basicamente, até agora eu estou dizendo ao git:
+
+"Transforme o diretorio atual em um repositório local vazio";
+"Adicione tais arquivos no repositório";
+------------------------------------------------------------------------------------------------------------------------------------------
+
+git commit
+
+Salva as alteracoes feitas nos arquivos;
+
+
+Para commitar você precisar informar o e-mail e o usuario para o git. Afinal de contas, quando um dev for verificar a versao enviada, será informado quem fez o commit;
+
+git config --global user.email "kleber@gmail.com"
+git config --global user.name "Kleber"
+
+Coloque o mesmo login e senha do github;
+
+Agora sim, vamos commitar;
+
+
+Para commitar voce precisar passar os parâmetros "-a" and "-m";
+
+-a -> all;
+-m -> message;
+
+
+Como boa prática, sempre é importante escrever uma mensagem para facilitar a identificacao da alteracao feita no arquivo;
+
+"Nessa versao do código foi feita tal coisa..."
+
+
+1- Dê um commit no arquivo "arquivo1.pdf" e escreva uma mensagem do que foi feito;
+
+    git commit arquivo1.pdf -m "Primeira versao do arquivo. Não foi feita nenhuma modificacao."
+
+    "Estou commitando/salvando a alteracao feita no arquivo tal, e vou passar uma mensagem para identificar o que foi feito nesse commit";
+
+    Dê um git status;
+
+Perceba que o arquivo desapareceu do "git status"; 
+Ele já foi salvo. Sacou??
+
+
+
+Geralmente sao commitados todos os arquivos de uma vez;
+
+
+2-Use o command com a flag "-a" -> all
+    git commit -a -m "Versao 1 dos arquivos";
+
+    Dê um git status;
+
+Nice! Tudo commitado. Todas as alteracoes salvas;
+
+
+
+3- Vá em algum arquivo ".txt" e escreve uma frase;
+
+-Dê um git status;
+
+Voce acabou de fazer uma alteracao no arquivo; Agora commit para salvar essa alteracao;
+    git commit arquivotal -m "Primeira frase do arquivo adicionada";   ou
+    git commit -a -m "Primeira frase do arquivoTal adicionada";
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+-->

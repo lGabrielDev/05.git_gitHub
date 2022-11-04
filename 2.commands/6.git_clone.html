@@ -1,0 +1,80 @@
+<!--
+git clone
+
+
+Antes, aprendemos a criar nosso repositorio local e criar uma conexao com um repositorio remoto.
+
+Mas... E se precisássemos entrar em um projeto??
+
+Imagina que voce acabou de entrar para um time de devs que estao fazendo um projeto.
+
+
+Como o projeto já foi criado por um dos devs, voce nao precisa criar um repositorio local. Basta clonar o repositorio remoto.
+
+Vamos trabalhar com aquele repositorio_1 que voce criou;
+
+
+1- Crie um diretorio "repositorio_2";
+
+Agora temos 1 repositorio local e 1 diretorio: 
+    . "repositorio_1";
+    . "repositorio_2";
+
+
+
+Imagine que o "repositorio_1" é o repositório local de um dos devs do seu time e o "repositorio_2" é o repositorio local do seu pc;
+
+
+
+2- Vá no GitHub no "repositório_1", vá em "code" e copie o caminho HTTPS;
+
+3- clone o repositorio para o diretorio "repositorio_2"
+        git clone https://caminhoTal;
+        
+
+
+Se ligou?:
+Quando voce dá um "git clone" vc está dando um git init e um git remote ao mesmo tempo;
+
+
+Voce basicamente: 
+    - transformou o diretorio em um repositorio local;
+    - clonou os arquivos do repositorio remoto GitHub para esse repositorio local;
+    - criou uma conexao com o repositorio remoto GitHub;
+
+
+
+Beleza. Agora temos 2 repositorios.
+Vamos imaginar que o "repositorio_1" foi criado por um dev do seu time;
+E o "repositorio_2" é o seu repositorio;
+
+Entao... Eu clonei o repositorio remoto GitHub para o meu repositorio local.
+A partir de agora, qualquer alteracao que o dev do meu time fizer, vou conseguir dar um pull e pegar essas alteracoes;
+
+LEMBRANDO!!! Como o dev não me deu autorizacao, não consigo dar push. Senão viraria uma bagunca. Qualquer pessoa poderia enviar qualquer arquivo para qualquer pessoa.
+
+"Vou clonar o GitHub da coca-cola e enviar arquivos.... Não dá né??"
+
+APENAS o dono do repositorio remoto pode dar push. A nao ser que ele dê permissao.
+
+
+
+4- O dev do seu time vai no repositorio local repositorio_1(aquele primeirao que vc fez) e vai alterar 1 arquivo;
+
+    -Dê um git status;
+    -Salve o commit;
+    -Empurre os commits para o repositorio remoto GitHub;
+    
+
+6- Vá no repositorio local "repositorio_2" e dê um "git pull";
+
+
+
+Se ligou??
+
+Ex:
+Voce achou um codigo legal na internet e deu um git clone; Para pegar a versao mais recente do codigo, vc dá um git pull de leves;
+
+Sacou??
+
+-->

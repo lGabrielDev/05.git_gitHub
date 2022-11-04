@@ -1,0 +1,39 @@
+<!--
+.gitignore;
+
+Basicamente eu crio um arquivo ".gitignore" para ignorar algum arquivo e/ou diretorio;
+Assim o git desconsidera todos os arquivos e diretorios que estiverem escritos dentro do arquivo ".gitignore";
+
+
+1- Vá no gitFolder e dê um "git status";
+
+Perceba que o diretorio "repositorios" aparece como untracked. Ele não foi adicionado no git;
+
+Vamos ignorar esse diretório.
+
+2- Crie um arquivo ".gitignore" no repositorio "05.Git_GitHub";
+        touch .gitignore;
+
+
+3- Dentro desse arquivo, escreva o diretorio ou arquivo que voce quer que seja ignorado:
+        repositorios/*
+
+Cada linha desse arquivo representa um arquivo ou diretorio;
+
+4- Dê um git status;
+
+    Viu?? O diretorio 'repositorios' nao aparece mais. Ele foi ignorado;
+    
+
+4- Crie um arquivo ".txt" e ignore ele com o git;
+
+    O arquivo ".gitignore" ficou assim:
+            repositorios/*
+            arquivoTeste.txt
+
+Na primeira linha eu estou ignorando o diretorio tal;
+Na segunda linha eu estou ignorando o arquivo tal;
+
+
+Easy!
+-->

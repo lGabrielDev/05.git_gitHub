@@ -1,0 +1,56 @@
+<!--
+git mv
+
+Move ou renomeia arquivo/diretorio;
+
+Funciona igual o command do linux;
+
+Padraozin;
+
+
+
+1- Crie 1 diretorio no repositorio local;
+        mkdir "conteudo_css";
+
+        Crie um arquivo generico dentro dele;
+        Voce só consegue dar um "git add" se o diretorio tiver algum arquivo dentro;
+
+2- Crie 1 arquivo ".css" no repositorio (crie ele FORA do diretorio "conteudo_css"). 
+        touch arquivo1.css;
+
+3- Adicione esses arquivos no diretorio remoto:
+    .git add ./;
+        git status
+
+    .git commit -a -m "arquivos adicionados";
+    .git push -u origin main;
+
+
+
+4-
+Ops... Coloquei o arquivo ".css" no diretorio errado. Mude o arquivo para dentro do diretorio "conteudo_css";
+
+        git mv arquivo1.css ./conteudo_css/arquivo1.css;
+
+
+5- Commit and push
+    git commit -a -m "Arquivo movido para o diretorio correto";
+
+    git push -u origin main ;
+
+
+
+Igual ao linux. Easy!
+
+
+6- Renomeie o nome do diretorio:
+        git mv conteudo_css/ diretorioTal/
+        git commit -a -m "Renomeado o nome do diretorio"
+
+7- Renomeie o nome do arquivo:
+        git mv diretorioTal/arquivo1.css diretorioTal/arquivo999.css;
+        git commit -a -m "Renomeado nome do arquivo";
+
+Easy!
+
+-->

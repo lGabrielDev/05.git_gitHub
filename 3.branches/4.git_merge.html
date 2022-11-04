@@ -1,0 +1,72 @@
+<!--
+git merge
+Mescla a branch atual com a branchTal;
+
+Geralmente é usado para mesclar a branch master/main com a branch que voce fez a funcionalidade;
+
+
+Vamos trabalhar naquele repositorio criado "repositorio_1";
+
+
+
+Digamos que voce ficou responsavel por alterar o arquivo "arquivo1.txt" do projeto;
+
+Como boa prática, vamos criar uma branch para trabalhar na funcionalidade que foi pedida;
+1- Crie uma branch para trabalhar:
+        git branch alterar_arquivoTal;
+
+2-Liste as branches
+        git branch;
+
+
+3- Troque para a branch criada:
+        git checkout alterar_arquivoTal;
+
+
+4- Faça a alteracao no arquivo (adicione 1 linha);
+
+5- Adicione o arquivo modificado e salve com o commit;
+        git add ./;
+        git commit -a -m "Conteudo adicionado no arquivo";
+        git push origin alterar_arquivo;
+
+Perceba que voce deu um push na branch "alterar_arquivo";
+
+"Quero enviar do repositorio local para o repositorio remoto 'origin', na branch tal"
+
+
+6- Vá no GitHub e veja:
+    Agora temos 2 branches;
+    A branch main não sofreu nenhuma alteracao, mas a branch tal sofreu;
+
+Beleza, fizemos nossa funcionalidade. Vamos aguardar seu chefe aprovar. Chefe aprovou, vamos mesclar a branch main com a funcionalidade que voce criou;
+
+
+7- Vá para a branch main/master;
+        git checkout main;
+
+8- Atualize a branch main;
+        git pull;
+Importante sempre atualizar a branch main; Se eu vou mesclar uma outra branch com ela, a branch main precisa estar atualizada bonitinho;
+
+
+9- Mescle a branch atual com a branch que trabalhamos:
+    git merge alterar_arquivoTal -m "arquvo tal alterado";
+
+10- Verifique a branch main/master no GitHub:
+    Viu?? Foi mesclado!
+
+
+Resumindo:
+
+Foi pedido uma funcionalidade, vou criar uma branch para trabalhar;
+Resolvo aquela funcionalidade , commito e push na branch que eu criei;
+
+Tudo certindo? Superior autorizou?
+
+Acesso a branch main/master e dou um merge na branch que eu trabalhei.
+
+
+
+Nunca devemos dar um push na branch main/master; Cuidado!!
+-->
