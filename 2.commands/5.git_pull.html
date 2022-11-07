@@ -5,8 +5,13 @@ git push -> Envia os commits(alteracoes salvas) do repositorio local do seu pc p
 ------------------------------------------------------------------------------------------------------------------------------------------
 git pull
 
-Verifica se tem arquivos modificados no diretorio remoto do GitHub. Se tiver, ele envia para o repositorio local; 
+Server para recebermos atualizações do repositorio remoto;
 
+Verifica se tem arquivos modificados no diretorio remoto do GitHub. Se tiver, ele puxa para o repositorio local; 
+
+Ele dá um git fetch e um git merge;
+
+Você pode dar um "git pull" em cada branch; 
 
 Numa empresa, os devs trabalham junto com 1 ou varios repositorios; Não é só voce que vai dar um "git push" e mandar arquivos para o repositorio remoto GitHub. Os outros devs também vao enviar.
 
@@ -47,6 +52,12 @@ git pull -> Puxa os arquivos commitados do repositorio remoto do GitHub para o r
 
 git push-> Empurra para o GitHub;
 git pull-> Puxa para o repositorio local;
+
+
+
+
+Como boa prática, sempre é bom dar um "git pull" antes de criar uma branch;
+Assim, garantimos que a branch foi criada com a ultima versao da master;
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
