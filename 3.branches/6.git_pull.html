@@ -1,0 +1,206 @@
+<!--
+git pull
+
+Serve para recebermos atualizacoes do repositorio remoto;
+Puxamos essas atualizacoes do repositorio remoto para o nosso repositorio local;
+
+Cada branch pode ser atualizada.
+
+Como boa prática, antes de criar um branch para trabalhar , atualizamos a branch master/main;
+
+
+
+Praticando:
+
+1- Crie um projeto no repositorio remoto GitHub;
+    mkdir projeto_empresa;
+    touch projeto_empresa/arquivo1.txt;
+
+    git init;
+    git status;
+    git add ./;
+    git commit -a -m "Arquivos do projeto adicionados";
+
+
+    git remote add origin https://github.com/lGabrielDev/projeto_empresa.git;
+    git push -u origin master;
+    
+Beleza. Esse vai ser o repositorio do projeto;
+
+
+
+2- Crie essa estrutura ed diretorios no Desktop;
+	devs/
+		gabriel/
+		pedro/
+
+Cada diretorio representa uma pessoa, sacou??
+
+		
+3- Clone o repositorio do projeto para os dois usuarios;
+	git clone https://github.com/lGabrielDev/projeto_empresa.git
+
+Beleza, os dois devs clonaram o repositorio;
+
+Imagina que voce e o "pedro" estao fazendo tarefas diferentes.
+
+Primeiro, o pedro foi solicitado para fazer uma tarefa:
+	Foi pedido ao "pedro" adicionar uma linha no arquivo "arquivo1.txt";
+
+Depois, foi pedido a voce fazer outra tarefa:
+	Adicionar 2 linhas no final do arquivo;
+	
+Vamos la...
+
+
+
+
+
+(PEDRO)
+
+4- Atualize a branch master para receber a ultima atualizacao do repositorio remoto;
+	git pull;
+	
+5- Crie uma branch e faça a tarefa que foi pedida;
+	git branch tarefa_pedro;
+	git branch;
+	git checkout tarefa_pedro;
+	git branch;
+	
+	
+6- Faça a tarefa pedido ao "Pedro". Adicione 1 linha no arquivo;
+
+7- Salve a alteração feita na branch criada;
+	git add ./;
+	git commit -a -m "Linha adicionada no arquivo";
+	git push --set-upstream origin tarefa_pedro;
+
+
+
+
+
+Show de bola;
+
+Pedro ja fez sua tarefa e upou no repositorio remoto e na branch que ele criou;
+
+Agora, o Chefe do time vai dar um merge para atualizar a branch master do projeto;
+
+
+(CHEFE)
+
+8- Atualize a branches do projeto.
+	git fetch -a;
+
+
+8.1- Acesse a branch master e dê um "merge" para mesclar a branch master com a branch criada pelo pedro;
+Assim, a branch master está atualizada com a funcionalidade que o "Pedro" criou;
+	git branch;
+	git checkout master;
+	git merge origin/tarefa_pedro;
+	git push -u origin master; ou git push;
+
+Beleza. Funcionalidade do pedro foi mesclada na branch master;
+
+
+Agora voce "gabriel" vai fazer sua tarefa;
+A sua tarefa é adicionar 2 linhas no final do arquivo;
+
+
+
+
+
+(GABRIEL)
+
+Antes de criar a branch para realizar nossa tarefa, vamos atualizar a branch master; 
+Lembra que seu "Chefe" adicionou na branch master a funcionalidade do Pedro?? Então... Voce precisa atualizar a branch master;
+
+Como boa prática, antes de criar minha branch para trabalhar, vou atualizar a branch master do projeto;
+
+
+
+9- Acesse o diretorio do "Gabriel";
+
+10- Atualize as branches;
+	git fetch -a;
+	
+	Viu? Apareceu a branch nova criada pelo "Pedro";
+	
+	
+	
+11- Atualize a branch master para a ultima versao:
+	git branch;
+	git checkout master;
+	git status;
+	
+	Viu?? Apareceu que foi feito 1 commit e que pode ser atualizado com o "git pull";
+	
+	git pull;
+
+	
+ Pronto. A branch master está atualizada. Assim, podemos trabalhar em nossa tarefa, sabendo que a branch master está na ultima versao;
+ 
+ 
+ 12- branch master atualizada, vamos criar nossa branch para trabalhar;
+ 	git branch;
+ 	git checkout tarefa_gabriel;
+ 	git branch;
+ 	
+ 	
+13- Faça a tarefa do "Gabriel". Adicione 2 linhas no arquivo;
+ 	
+14- Salve a modificacao feita;
+	git add ./ ;
+	git commit -a -m "Linhas adicionadas";
+	git push -u origin tarefa_gabriel;
+ 	
+ 	
+Pronto! Agora o "chefe" precisa aprovar;
+
+
+
+
+(CHEFE)
+
+(CHEFE)
+
+15- Atualize a branches do projeto.
+	git fetch -a;
+
+
+15.1- Acesse a branch master e dê um "merge" para mesclar a branch master com a branch criada pelo pedro;
+Assim, a branch master está atualizada com a funcionalidade que o "Pedro" criou;
+	git branch;
+	git checkout master;
+	git merge origin/tarefa_pedro;
+	git push -u origin master; ou git push;
+
+Beleza. Funcionalidade do pedro foi mesclada na branch master;
+
+
+Agora voce "gabriel" vai fazer sua tarefa;
+A sua tarefa é adicionar 2 linhas no final do arquivo;
+ 	
+ 	
+ 	
+ 	
+ 	
+As vezes, para acessar branches de outros devs, devemos falar o caminho completo da branch:
+	git checkout origin/branchTal;
+	
+	"Quero trocar para a branch tal"
+	Aí, eu só especifiquei dizendo que a branch está no repositorio tal; É o caminho completo;
+	Sacou?? Easy!
+	
+	
+ 
+ Agora o Pedro é quem precisa atualizar o repositorio remoto na branch master;
+ 
+ 
+(PEDRO)
+16- Acesse o diretorio do pedro e dê um git pull;
+	git pull;
+	
+Viu? A funcionalidade do "gabriel" já aparece. 
+
+
+-->
