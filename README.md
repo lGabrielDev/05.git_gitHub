@@ -11,6 +11,8 @@ testando **markdown**
 
 ## Linguagens e ferramentas do projeto:
 1. HTML and CSS
+    1. flexbox
+    2. img
 2. SQL
 3. JAVA
 4. Linux
