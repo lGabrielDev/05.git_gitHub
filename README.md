@@ -1,8 +1,8 @@
 # Material de estudo - git
-testando markdown
+testando **markdown**
 
 ## Título 2
-testando markdown
+testando __markdown__
 
 ### Título 3
 testando markdown
