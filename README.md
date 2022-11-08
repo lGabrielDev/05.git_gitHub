@@ -1,16 +1,17 @@
 # Material de estudo - git
 testando **markdown**
 
-## Título 2
-testando *markdown*
+## Linguagens e ferramentas do projeto:
+* HTML and CSS
+* SQL
+* JAVA
+* Linux
+* GIT
 
-### Título 3
-testando __markdown__
 
-#### Título 4
-testando _markdown_
-
-##### Título 5
-testando markdown
-
-###### Título 6
+## Linguagens e ferramentas do projeto:
+1. HTML and CSS
+2. SQL
+3. JAVA
+4. Linux
+5. GIT
