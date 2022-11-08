@@ -2,7 +2,7 @@
 testando **markdown**
 
 ## Título 2
-testando __markdown__
+testando _markdown_
 
 ### Título 3
 testando markdown
