@@ -20,5 +20,23 @@ testando **markdown**
 
 
 
-### Links
-[![Java Icon](./img/java_icon.png)](https://www.java.com/pt-BR/)
+### Criando o primeiro method
+
+O method a seguir retorna a soma de 2 números:
+
+```java
+
+public Integer soma(Integer a, Integer b){
+    return a + b;
+}
+
+```
+
+
+```
+
+public Integer soma(Integer a, Integer b){
+    return a + b;
+}
+
+```
