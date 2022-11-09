@@ -19,10 +19,11 @@ testando **markdown**
 5. GIT
 
 
-#### Imagem local
-![logo da linguagem de programacao Java](./img/java_icon.png)
-
-![logo da linguagem de banco de dados PostgreSQL](./img/postgreesql_icon.png)
-
 
 #### Imagem da web
+**Logo HTML**
+![Logo da linguagem de marcacao HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png)
+
+
+**Logo CSS**
+![logo CSS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png)
