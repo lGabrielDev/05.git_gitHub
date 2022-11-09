@@ -17,3 +17,12 @@ testando **markdown**
 3. JAVA
 4. Linux
 5. GIT
+
+
+#### Imagem local
+![logo da linguagem de programacao Java](./img/java_icon.png)
+
+![logo da linguagem de banco de dados PostgreSQL](./img/postgreesql_icon.png)
+
+
+#### Imagem da web
