@@ -21,6 +21,4 @@ testando **markdown**
 
 
 ### Links
-[Google](https://google.com.br)
-
-GitHub do desenvolvedor: https://github.com/lGabrielDev;
+[![Java Icon](./img/java_icon.png)](https://www.java.com/pt-BR/)
