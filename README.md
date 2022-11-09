@@ -20,10 +20,7 @@ testando **markdown**
 
 
 
-#### Imagem da web
-**Logo HTML**
-![Logo da linguagem de marcacao HTML](https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/120px-HTML5_logo_and_wordmark.svg.png)
+### Links
+[Google](https://google.com.br)
 
-
-**Logo CSS**
-![logo CSS](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/363px-CSS3_logo_and_wordmark.svg.png)
+GitHub do desenvolvedor: https://github.com/lGabrielDev;
