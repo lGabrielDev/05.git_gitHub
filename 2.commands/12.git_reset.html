@@ -1,37 +1,30 @@
 <!--
-    git reset --hard
+git reset --hard commit_tal;
+
+Esse command volta a versao do repositorio para outro commit.
+
+1- Faça uma alteração em um arquivo do JavaFolder.
+
+2- Commit essa alteração
+        git add ./;
+        git commit -a -m "palava adicionada";
 
 
-Imagina que voce commitou algo errado, e não quer usar o push para enviar para o repositorio remoto;
-
-Basta usar o "git reset --hard";
-Assim, o git desconsidera esse commit e passa a considerar o ultimo commit feito.
-
-1- Acesse algum arquivo e altere alguma coisa;
-2- commit esssa alteracao;
-3- Dê um "git status"
-        Viu? Está informando que têm 1 commit;
-
-    Dê um "git log"
-        Viu? O ultimo commit feito aparece ali.
+Imagina que voce commitou errado e gostaria de voltar para a versao anterior...
 
 
+3- Verifique os commits feitos
+        git log;
 
-4- Voce commitou errado. Resete o commit feito;
-        git reset --hard origin/main;
+4- Copie o código do commit que voce deseja estar
 
+5- Use o command para resetar para o commit que deseja:
 
-5- Dê um "git log" novamente:
-        Viu?? O commit feito desapareceu.
-
-
-Easy!
-
-Fez besteira? Commitou errado? Dê um git reset --hard;
+        git reset --hard código_do_commit;
 
 
-Cuidado!! Use com cautela.
-Certifique de que voce deu um push para o repositorio remoto do GitHub.
-Se voce resetar a branch, tudo que foi commitado será perdido. Cuidado!!
+Easy!!
+
+
 
 -->
