@@ -1,4 +1,4 @@
-# Imagens/icons mais usados
+## Imagens/icons mais usados
 
 | decription      | image/icon |
 | :---            |    :---:   |
@@ -15,11 +15,10 @@
 | Syntax          | <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">|
 
 
-
-
-
-
+<hr>
 <br>
+
+## Emojis mais usados
 
 * :pencil2:
 * :heavy_exclamation_mark:
