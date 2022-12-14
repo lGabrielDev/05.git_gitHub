@@ -13,7 +13,8 @@
 | memorizing      | <img src="https://cdn-icons-png.flaticon.com/512/2810/2810051.png" alt="imagem" width="50px" align="center">|
 | remember        | <img src="https://cdn-icons-png.flaticon.com/512/201/201652.png" alt="imagem" width="50px" align="center">|
 | Boolean         | <img src="https://cdn-icons-png.flaticon.com/512/3406/3406894.png" alt="imagem" width="50px" align="center">|
-| Syntax          | <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">|
+| syntax          | <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">|
+| install         | <img src="https://cdn.icon-icons.com/icons2/1508/PNG/512/systemsoftwareinstall_104153.png" alt="curly braces icon" width="30px" align="center">|
 
 
 <hr>
