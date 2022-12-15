@@ -10,7 +10,7 @@
 | varaibles       | <img src="https://cdn-icons-png.flaticon.com/512/7020/7020002.png" alt="imagem" width="50px" align="center">|
 | numbers         | <img src="https://cdn-icons-png.flaticon.com/512/709/709337.png" alt="imagem" width="50px" align="center">|
 | String          | <img src="https://cdn-icons-png.flaticon.com/512/6051/6051526.png" alt="imagem" width="50px" align="center">|
-| memorizing      | <img src="https://cdn-icons-png.flaticon.com/512/2810/2810051.png" alt="imagem" width="50px" align="center">|
+| memorizing      | <img src="https://cdn-icons-png.flaticon.com/512/2810/2810051.png" alt="imagem" width="50px" align="left">|
 | remember        | <img src="https://cdn-icons-png.flaticon.com/512/201/201652.png" alt="imagem" width="50px" align="center">|
 | Boolean         | <img src="https://cdn-icons-png.flaticon.com/512/3406/3406894.png" alt="imagem" width="50px" align="center">|
 | syntax          | <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">|
