@@ -15,6 +15,8 @@
 | Boolean         | <img src="https://cdn-icons-png.flaticon.com/512/3406/3406894.png" alt="imagem" width="50px" align="center">|
 | syntax          | <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">|
 | install         | <img src="https://cdn.icon-icons.com/icons2/1508/PNG/512/systemsoftwareinstall_104153.png" alt="curly braces icon" width="30px" align="center">|
+| move files      | <img src="https://cdn-icons-png.flaticon.com/512/8901/8901575.png" alt="curly braces icon" width="40px" align="center">|
+
 
 
 <hr>
